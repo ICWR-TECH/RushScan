@@ -1,1 +1,1 @@
-wp-admin^WordPress^lib/scan-plugins/wp-plugins.rush^^^Drupal^Drupal^lib/scan-plugins/drupal-plugins.txt^^^Joomla^Joomla^lib/scan-plugins/
+wp-admin^lib/scan-plugins/wp-plugins.rush^WordPress^^^Drupal^lib/scan-plugins/drupal-plugins.rush^Drupal^^^Joomla^lib/scan-plugins/joom-plugins.rush^Joomla^
