@@ -40,6 +40,7 @@ for key in pisah_cms :
             s_plugins=p_key.split("^")
             cek_plugins=requests.get(url=target + s_plugins[0], headers={"User-Agent" : user_agent}, allow_redirects=True)
             if cek_plugins.status_code == 200 :
+                p_detect="find"
                 print "\n[+] Find Plugins : " + s_plugins[1]
                 print "[+] Reference : " + s_plugins[2]
         if not p_detect :
