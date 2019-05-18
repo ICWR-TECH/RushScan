@@ -1,0 +1,2 @@
+# RushScan
+Web Application Scanner
