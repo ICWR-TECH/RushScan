@@ -43,7 +43,7 @@ for key in pisah_cms :
                 print "\n[+] Find Plugins : " + s_plugins[1]
                 print "[+] Reference : " + s_plugins[2]
         if not p_detect :
-            print "[+] Not Detect Plugins"
+            print "\n[+] Not Detect Plugins"
 
 if not cms_detect :
     print "[-] CMS Not Detected"
