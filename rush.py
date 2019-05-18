@@ -1,5 +1,5 @@
 #!/usr/bin/python2
-# Rush-Scan - Web Application Scanner
+# RushScan - Web Application Scanner
 # Copyright (c)2019 - Afrizal F.A - ICWR-TECH
 # Just For Testing And Education Web Application
 
@@ -33,7 +33,7 @@ for key in pisah_cms :
     if re.search(cms_value[0], konten_cms) :
         cms_detect=cms_value[1]
         print "[+] CMS : " + cms_value[1]
-        print "\n[*] Scanning " + cms_detect + " Plugins"
+        print "\n[*] Scanning Sensitive " + cms_detect + " Plugins"
         list_plugins=open(cms_value[2], "r").read().split("^^^")
         p_detect=""
         for p_key in list_plugins :
