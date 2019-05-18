@@ -1,3 +1,3 @@
 # RushScan
 Web Application Scanner
-# Coming Soon
+Don't Recode This Script Without Copyright
