@@ -103,7 +103,7 @@ for x_str in p_str :
             print "[+] Vulnerability In Parameter \"" + x_s[m_p] + "\""
         else :
             print "[-] Failed Trying XSS ( POST ) Parameter : " + m_p
-        xss_get=target + "?" + str(m_p) + "=" + x_s[m_p]
+        xss_get=target + "/?" + str(m_p) + "=" + x_s[m_p]
         req_get=requests.post(url=xss_get, headers={"User-Agent" : user_agent}, allow_redirects=True).content
         if re.search(pyld_xss, req_get) :
             print "[+] Vulnerability Parameter \"" + m_p + "\" In URL : " + xss_get
