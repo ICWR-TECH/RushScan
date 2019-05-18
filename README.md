@@ -1,3 +1,3 @@
 # RushScan
 Web Application Scanner
-# Cooming Son
+# Coming Soon
