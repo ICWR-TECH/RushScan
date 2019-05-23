@@ -1,3 +1,3 @@
-# RushScan ( Version 0.0.1 - Beta )
+# RushScan ( Version 0.0.2 - Beta )
 Web Application Scanner,
 Don't Recode This Script Without Copyright
